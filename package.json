@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "node fuse.js",
+    "prod": "node fuse.js NODE_ENV=production"
+  },
+  "dependencies": {
+    "aphrodite": "^2.2.3",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "rxjs": "^6.3.3",
+    "undux": "^5.0.0-beta.19",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/aphrodite": "^0.5.13",
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
+    "@types/uuid": "^3.4.4",
+    "fuse-box": "^3.6.0",
+    "typescript": "^3.2.4",
+    "uglify-es": "^3.3.9",
+    "uglify-js": "^3.4.9"
+  }
+}
